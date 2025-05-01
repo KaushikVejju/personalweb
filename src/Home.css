@@ -1,11 +1,13 @@
 .kaushikpic {
-    height:19.5em;
+    height: 19.5em;
     width: 21em;
     border-radius: 50%;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-
+    object-fit: cover;
+    object-position: center;
 }
+
 .home-pic {
     margin: 0 auto;
     text-align:center;

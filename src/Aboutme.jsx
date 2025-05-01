@@ -6,6 +6,7 @@ import drake from './drake.jpg';
 import overexposed from './overexposed.png';
 import ironman from './ironman.jpg';
 import batman from './batman.jpg';
+import faye from './faye.jpg'
 import tiger from './tiger.jpg';
 // TO DO: ADD FONT AWESOME DETAILS
 
@@ -14,10 +15,12 @@ const AboutMe = ({ onBeginClick }) => {
         <div class="intro-text">
             <h2> About Me</h2>
             <p class="aboutmedetails"> 
-                I'm a recent graduate at the University of Maryland, where I studied Computer Science. I love the creativity that comes with Computer Science,
+                I'm a recent graduate at the <b>University of Maryland</b>, where I studied Computer Science. I'm an incoming <b>Software Engineer at Uber</b>,
+                and have previous engineering experience at <b>Appian</b>, <b>Zillow</b>, and <b>Prudential Financial</b>.
+                I love the creativity that comes with Computer Science,
                 especially being able to work on exciting projects and collaborating with others to do so. My technical interests are pretty vast, but I'm
                 particulary intrigued by DevOps, observability, and data science. Outside of my tech interests, my main hobbies include
-                running, drawing, and watching/analyzing movies. Take a look below to learn more about me!
+                running, drawing, and watching/analyzing movies.
             </p>
         
             <h2> Art</h2>
@@ -63,6 +66,8 @@ const AboutMe = ({ onBeginClick }) => {
                 <img class="albumcover" src={thespace} alt="thespacebetween" />
                 <img class="albumcover" src={drake} alt="drake" />
                 <img class="albumcover" src={overexposed} alt="overexposed" />
+                <img class="albumcover" src={faye} alt="faye" />
+
 
             </div>
             <br></br>

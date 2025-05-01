@@ -6,6 +6,9 @@ import pru from './pru.png';
 import umd from './umd.png';
 import h4i from './h4i.png';
 import sif from './sif.png';
+import appian from './appian.png'
+import uber from './uber.png'
+
 
 
 const Experience = ({ onBeginClick }) => {
@@ -13,9 +16,37 @@ const Experience = ({ onBeginClick }) => {
         <div class="my-experience">
             <h2>My Experience</h2>
             <p class="experience-intro">
-                Over the past few years, I've had different experiences in college related to software development. Here are some of the highlight
+                Over the past few years, I've had different experiences related to software development. Here are some of the highlight
                 experiences I've had and some descriptions about them.
             </p>
+            <br></br>
+            <div class="job">
+
+                <h3 class="jobtitle"> <b>Uber</b> | Software Engineer | Incoming May 2025 </h3>
+                <p class="description">
+                   To be added ...
+                </p>
+                <div class="job-img-container">
+                    <img class="job-img" src={uber} alt="uber"/>
+                </div>
+
+            </div>
+            <br></br>
+            <div class="job">
+
+                <h3 class="jobtitle"> <b>Appian Corporation</b> | Technology Strategy Engineer | July 2024 - May 2025 </h3>
+                <p class="description">
+                    At Appian, I worked in the Chief Technology Office Team, developing plug-ins to extend the features of the Appian Process Automation
+                    platform. Among these included integrations with Pinecone, Veeva, and a standout: a connector to Apache Kafka, enabling users to
+                    directly consume and initiate Appian processes from Kafka messages. In addition to these connectors, I worked with a team of engineers to
+                    develop a Javascript-based editable grid component, facilitating Excel-like functionality with Appian data. Outside of
+                    engineering, I also led the product management of new technical connectors to Appian, namely xAI, SAP, and Palantir.
+                </p>
+                <div class="job-img-container">
+                    <img class="job-img" src={appian} alt="appian"/>
+                </div>
+
+            </div>
             <br></br>
             <div class="job">
 
@@ -60,7 +91,7 @@ const Experience = ({ onBeginClick }) => {
             </div>
             <br></br>
             <div class="job">
-                <h3 class="jobtitle"> <b>Hack4Impact</b> | Software Engineer | August 2023 - Present </h3>
+                <h3 class="jobtitle"> <b>Hack4Impact</b> | Software Engineer | August 2023 - December 2023 </h3>
                 <p class="description">
                         Joining Hack4Impact gave me perspective into the world of software consulting, more specifically designing software for non-profits.
                         The team I worked on followed a traditional agile workflow, where biweekly sprints were set up and tasks were assigned for each sprint.
@@ -73,7 +104,7 @@ const Experience = ({ onBeginClick }) => {
             </div>
             <br></br>
             <div class="job">
-                <h3 class="jobtitle"> <b>Smith Investment Fund</b> | Quantitative Developer | October 2021 - Present </h3>
+                <h3 class="jobtitle"> <b>Smith Investment Fund</b> | Quantitative Developer | October 2021 - May 2024 </h3>
                 <p class="description">
                     The Smith Investment Fund, or SIF, is a student-run investment group at UMD. I'm part of the club's Quantitative Team, which 
                     works on researching and developing systematic trading strategies. Currently, I am involved in the team's Internal Tools vertical,
